@@ -3,7 +3,7 @@ name: 同步上游仓库
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 */6 * * *'
+    - cron: '18 */2 * * *'
 
 jobs:
   repo-sync:
